@@ -3,10 +3,11 @@ import time
 import json
 
 def ExecuteC(iteration, numberThreads, numberSet):
-    print ('Information of the execution: ')
-    print (f' - Iteration: {iteration}')
-    print (f' - Threads: {numberThreads}')
-    print (f' - Set: {numberSet}')
+    print('Information of the execution: ')
+    print(f' - Iteration: {iteration}')
+    print(f' - Threads: {numberThreads}')
+    print(f' - Set: {numberSet}')
+    
     # Capturar el tiempo antes de ejecutar el programa
     timeStart = time.time()
 
@@ -14,7 +15,7 @@ def ExecuteC(iteration, numberThreads, numberSet):
     params = [str(numberThreads), str(numberSet)]
 
     # Ejecutar el programa en C con los parámetros
-    result = subprocess.run(['./Practica2'] + params, capture_output=True, text=True)
+    result = subprocess.run(['./Practica2'] + params, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 
     # Capturar el tiempo después de ejecutar el programa
     timeEnd = time.time()
@@ -40,25 +41,26 @@ def saveJSON (data):
     with open ('results.json', 'w') as file:
         json.dump(data, file, indent=4)
 
-listNumberThreads = [1,2,4,8,16,32]
-numberSet = 20
-data = []
-for thread in listNumberThreads:
-    
-    executions = []
-    for iteration in range(5):
-        timeExection = ExecuteC(iteration, thread,numberSet)
-        execution = {
-            'numberThreads' : thread,
-            'numberSet' : numberSet,
-            'timeExecution' : timeExection
+if __name__ == "__main__":
+    listNumberThreads = [1,2,4,8,16,32]
+    numberSet = 20
+    data = []
+    for thread in listNumberThreads:
+        
+        executions = []
+        for iteration in range(5):
+            timeExection = ExecuteC(iteration, thread,numberSet)
+            execution = {
+                'numberThreads' : thread,
+                'numberSet' : numberSet,
+                'timeExecution' : timeExection
+            }
+            executions.append(execution)
+
+        dataExecution = {
+            'dataExecution' : executions
         }
-        executions.append(execution)
 
-    dataExecution = {
-        'dataExecution' : executions
-    }
+        data.append(dataExecution)
 
-    data.append(dataExecution)
-
-saveJSON(data)
+    saveJSON(data)
