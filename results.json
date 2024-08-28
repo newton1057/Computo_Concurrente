@@ -1,0 +1,176 @@
+[
+    {
+        "dataExecution": [
+            {
+                "numberThreads": 1,
+                "numberSet": 20,
+                "timeExecution": 0.4541909694671631
+            },
+            {
+                "numberThreads": 1,
+                "numberSet": 20,
+                "timeExecution": 0.08556604385375977
+            },
+            {
+                "numberThreads": 1,
+                "numberSet": 20,
+                "timeExecution": 0.08667206764221191
+            },
+            {
+                "numberThreads": 1,
+                "numberSet": 20,
+                "timeExecution": 0.08635783195495605
+            },
+            {
+                "numberThreads": 1,
+                "numberSet": 20,
+                "timeExecution": 0.08558917045593262
+            }
+        ]
+    },
+    {
+        "dataExecution": [
+            {
+                "numberThreads": 2,
+                "numberSet": 20,
+                "timeExecution": 0.06012392044067383
+            },
+            {
+                "numberThreads": 2,
+                "numberSet": 20,
+                "timeExecution": 0.04667401313781738
+            },
+            {
+                "numberThreads": 2,
+                "numberSet": 20,
+                "timeExecution": 0.048577070236206055
+            },
+            {
+                "numberThreads": 2,
+                "numberSet": 20,
+                "timeExecution": 0.04894304275512695
+            },
+            {
+                "numberThreads": 2,
+                "numberSet": 20,
+                "timeExecution": 0.049603939056396484
+            }
+        ]
+    },
+    {
+        "dataExecution": [
+            {
+                "numberThreads": 4,
+                "numberSet": 20,
+                "timeExecution": 0.03264284133911133
+            },
+            {
+                "numberThreads": 4,
+                "numberSet": 20,
+                "timeExecution": 0.03270697593688965
+            },
+            {
+                "numberThreads": 4,
+                "numberSet": 20,
+                "timeExecution": 0.03280997276306152
+            },
+            {
+                "numberThreads": 4,
+                "numberSet": 20,
+                "timeExecution": 0.03257489204406738
+            },
+            {
+                "numberThreads": 4,
+                "numberSet": 20,
+                "timeExecution": 0.03292536735534668
+            }
+        ]
+    },
+    {
+        "dataExecution": [
+            {
+                "numberThreads": 8,
+                "numberSet": 20,
+                "timeExecution": 0.04178977012634277
+            },
+            {
+                "numberThreads": 8,
+                "numberSet": 20,
+                "timeExecution": 0.04169774055480957
+            },
+            {
+                "numberThreads": 8,
+                "numberSet": 20,
+                "timeExecution": 0.0418088436126709
+            },
+            {
+                "numberThreads": 8,
+                "numberSet": 20,
+                "timeExecution": 0.04198789596557617
+            },
+            {
+                "numberThreads": 8,
+                "numberSet": 20,
+                "timeExecution": 0.04214000701904297
+            }
+        ]
+    },
+    {
+        "dataExecution": [
+            {
+                "numberThreads": 16,
+                "numberSet": 20,
+                "timeExecution": 0.04626584053039551
+            },
+            {
+                "numberThreads": 16,
+                "numberSet": 20,
+                "timeExecution": 0.04600715637207031
+            },
+            {
+                "numberThreads": 16,
+                "numberSet": 20,
+                "timeExecution": 0.0456998348236084
+            },
+            {
+                "numberThreads": 16,
+                "numberSet": 20,
+                "timeExecution": 0.04603123664855957
+            },
+            {
+                "numberThreads": 16,
+                "numberSet": 20,
+                "timeExecution": 0.0455322265625
+            }
+        ]
+    },
+    {
+        "dataExecution": [
+            {
+                "numberThreads": 32,
+                "numberSet": 20,
+                "timeExecution": 0.04703569412231445
+            },
+            {
+                "numberThreads": 32,
+                "numberSet": 20,
+                "timeExecution": 0.04602503776550293
+            },
+            {
+                "numberThreads": 32,
+                "numberSet": 20,
+                "timeExecution": 0.04623889923095703
+            },
+            {
+                "numberThreads": 32,
+                "numberSet": 20,
+                "timeExecution": 0.04651784896850586
+            },
+            {
+                "numberThreads": 32,
+                "numberSet": 20,
+                "timeExecution": 0.05794191360473633
+            }
+        ]
+    }
+]

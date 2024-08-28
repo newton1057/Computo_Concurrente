@@ -44,7 +44,8 @@ void add_zero_subset(int *subset, int size) {
 }
 
 void print_zero_subsets() {
-    printf("Número de subconjuntos que suman 0: %d\n", subset_count);
+    
+    /*
     for (int i = 0; i < zero_subset_count; i++) {
         printf("{ ");
         for (int j = 0; j < zero_subsets[i].size; j++) {
@@ -52,6 +53,8 @@ void print_zero_subsets() {
         }
         printf("}\n");
     }
+    */
+    printf("Número de subconjuntos que suman 0: %d\n", subset_count);
 }
 
 void *generate_subsets(void *arg) {
@@ -62,7 +65,7 @@ void *generate_subsets(void *arg) {
     int subset[32];  // Suponemos un tamaño máximo de conjunto de 32
     int subset_size;
 
-    int total_subsets = 1ULL << (n - h);  // Número de cadenas binarias con |E| - h bits
+    int total_subsets = 1 << (n - h);  // Número de cadenas binarias con |E| - h bits
 
     for (int i = 0; i < total_subsets; i++) {
         subset_size = 0;
@@ -133,10 +136,12 @@ int main(int argc, char *argv[]) {
 
    // Imprimir los elementos del conjunto
     
+    /*
     printf("Elementos del conjunto generados aleatoriamente:\n");
     for (int i = 0; i < n; i++) {
         printf("%d | ", set[i]);
     }
+    */
      
     
 
