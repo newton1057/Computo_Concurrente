@@ -4,27 +4,27 @@
             {
                 "numberThreads": 1,
                 "numberSet": 20,
-                "timeExecution": 0.09469294548034668
+                "timeExecution": 0.09505891799926758
             },
             {
                 "numberThreads": 1,
                 "numberSet": 20,
-                "timeExecution": 0.11478829383850098
+                "timeExecution": 0.0844581127166748
             },
             {
                 "numberThreads": 1,
                 "numberSet": 20,
-                "timeExecution": 0.08597016334533691
+                "timeExecution": 0.0843968391418457
             },
             {
                 "numberThreads": 1,
                 "numberSet": 20,
-                "timeExecution": 0.08437013626098633
+                "timeExecution": 0.08494210243225098
             },
             {
                 "numberThreads": 1,
                 "numberSet": 20,
-                "timeExecution": 0.08475184440612793
+                "timeExecution": 0.08515810966491699
             }
         ]
     },
@@ -33,27 +33,27 @@
             {
                 "numberThreads": 2,
                 "numberSet": 20,
-                "timeExecution": 0.050755977630615234
+                "timeExecution": 0.047740936279296875
             },
             {
                 "numberThreads": 2,
                 "numberSet": 20,
-                "timeExecution": 0.047332048416137695
+                "timeExecution": 0.04866814613342285
             },
             {
                 "numberThreads": 2,
                 "numberSet": 20,
-                "timeExecution": 0.04767608642578125
+                "timeExecution": 0.04836106300354004
             },
             {
                 "numberThreads": 2,
                 "numberSet": 20,
-                "timeExecution": 0.04712200164794922
+                "timeExecution": 0.04922604560852051
             },
             {
                 "numberThreads": 2,
                 "numberSet": 20,
-                "timeExecution": 0.04910397529602051
+                "timeExecution": 0.0479738712310791
             }
         ]
     },
@@ -62,27 +62,27 @@
             {
                 "numberThreads": 4,
                 "numberSet": 20,
-                "timeExecution": 0.030966997146606445
+                "timeExecution": 0.030545711517333984
             },
             {
                 "numberThreads": 4,
                 "numberSet": 20,
-                "timeExecution": 0.030360937118530273
+                "timeExecution": 0.030210018157958984
             },
             {
                 "numberThreads": 4,
                 "numberSet": 20,
-                "timeExecution": 0.03035712242126465
+                "timeExecution": 0.03183603286743164
             },
             {
                 "numberThreads": 4,
                 "numberSet": 20,
-                "timeExecution": 0.030843019485473633
+                "timeExecution": 0.029345989227294922
             },
             {
                 "numberThreads": 4,
                 "numberSet": 20,
-                "timeExecution": 0.04848504066467285
+                "timeExecution": 0.029664993286132812
             }
         ]
     },
@@ -91,27 +91,27 @@
             {
                 "numberThreads": 8,
                 "numberSet": 20,
-                "timeExecution": 0.04279804229736328
+                "timeExecution": 0.03413820266723633
             },
             {
                 "numberThreads": 8,
                 "numberSet": 20,
-                "timeExecution": 0.07670712471008301
+                "timeExecution": 0.03358006477355957
             },
             {
                 "numberThreads": 8,
                 "numberSet": 20,
-                "timeExecution": 0.03426003456115723
+                "timeExecution": 0.03333926200866699
             },
             {
                 "numberThreads": 8,
                 "numberSet": 20,
-                "timeExecution": 0.033226966857910156
+                "timeExecution": 0.039388179779052734
             },
             {
                 "numberThreads": 8,
                 "numberSet": 20,
-                "timeExecution": 0.03171682357788086
+                "timeExecution": 0.03422808647155762
             }
         ]
     },
@@ -120,27 +120,27 @@
             {
                 "numberThreads": 16,
                 "numberSet": 20,
-                "timeExecution": 0.03217196464538574
+                "timeExecution": 0.03295731544494629
             },
             {
                 "numberThreads": 16,
                 "numberSet": 20,
-                "timeExecution": 0.03625082969665527
+                "timeExecution": 0.03505396842956543
             },
             {
                 "numberThreads": 16,
                 "numberSet": 20,
-                "timeExecution": 0.03413796424865723
+                "timeExecution": 0.0335841178894043
             },
             {
                 "numberThreads": 16,
                 "numberSet": 20,
-                "timeExecution": 0.03789091110229492
+                "timeExecution": 0.03330111503601074
             },
             {
                 "numberThreads": 16,
                 "numberSet": 20,
-                "timeExecution": 0.03594398498535156
+                "timeExecution": 0.03354907035827637
             }
         ]
     },
@@ -149,27 +149,27 @@
             {
                 "numberThreads": 32,
                 "numberSet": 20,
-                "timeExecution": 0.03367018699645996
+                "timeExecution": 0.03867506980895996
             },
             {
                 "numberThreads": 32,
                 "numberSet": 20,
-                "timeExecution": 0.03497195243835449
+                "timeExecution": 0.04496908187866211
             },
             {
                 "numberThreads": 32,
                 "numberSet": 20,
-                "timeExecution": 0.033926963806152344
+                "timeExecution": 0.03378772735595703
             },
             {
                 "numberThreads": 32,
                 "numberSet": 20,
-                "timeExecution": 0.03540205955505371
+                "timeExecution": 0.03292703628540039
             },
             {
                 "numberThreads": 32,
                 "numberSet": 20,
-                "timeExecution": 0.03620600700378418
+                "timeExecution": 0.03310585021972656
             }
         ]
     }

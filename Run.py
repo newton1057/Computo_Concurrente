@@ -15,7 +15,7 @@ def ExecuteC(iteration, numberThreads, numberSet):
     params = [str(numberThreads), str(numberSet)]
 
     # Ejecutar el programa en C con los parámetros
-    result = subprocess.run(['./Practica2'] + params, stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+    result = subprocess.run(['./Practica2'] + params, stdout=subprocess.PIPE, stderr=subprocess.PIPE, universal_newlines=True)
 
     # Capturar el tiempo después de ejecutar el programa
     timeEnd = time.time()
